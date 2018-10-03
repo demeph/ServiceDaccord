@@ -1,0 +1,29 @@
+<html>
+  <head> <meta charset="utf-8">
+    <title>tman-wrtc</title>
+    <style>
+      .graph {
+      width: 100vw;
+      height: 100vh;      
+      }           
+    </style>
+  </head>
+
+  
+  
+  <body>
+    Please switch to console mode for more informations.
+    <script src="/build/tman-gps.bundle.debug.js"></script>
+    <script src="/build/spray-wrtc.bundle.debug.js"></script>
+    <script src="/node_modules/p2p-graph/p2p-graph.min.js"></script>
+    <script src="/node_modules/cytoscape/dist/cytoscape.js"></script>
+
+    <div class="graph"></div>
+    <div id="parent"></div>
+    <div id="tman"></div>
+    <div id="cy" style="width:100vw; height:1000px;"></div>
+    <!--<canvas id="myCanvas" width="1080" height="1000" style="border:1px solid #d3d3d3;"></canvas>-->
+
+    <script src="./tmangps.js"></script>
+  </body>
+</html>
